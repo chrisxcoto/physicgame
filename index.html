@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+<title>Psychic Game</title>
+
+
+</head>
+<body>
+<!-- THIS IS WERE MY GAME INSTRUCTIONS ARE GONING TO GO-->
+
+<div class="jumbotron jumbotron-fluid text-center">
+
+    <div class="container">
+<h1 class="display-4">Physic Game</h1>
+
+<p class="lead">Using your keyboard and putting your a letter a from a to z, if you get it right within 10 tries move on, you win. Guess wrong and you lose</p>
+
+    </div>
+
+</div>
+
+<!-- Create html element and provide proper identification of tags to use javascript to select and use specific areas -->
+
+<div class="container text-center">
+<div>
+Wins: <Span id="userWin"></Span>
+<br>
+Losses: <span id="userLosses"></span>
+<br>
+GuessesLeft: <span id="guessesLeft"></span>
+<br>
+LettersGuessed: <span id="lettersGuessed"></span>
+
+<hr>
+</div> 
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src=game.js></script>
+
+</body>
+</html>
